@@ -544,11 +544,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .mb-8 {
   margin-bottom: 2rem;
 }
@@ -573,6 +568,10 @@ video {
   display: none;
 }
 
+.min-h-\[400px\] {
+  min-height: 400px;
+}
+
 .w-full {
   width: 100%;
 }
@@ -593,12 +592,16 @@ video {
   flex-direction: row-reverse;
 }
 
+.items-stretch {
+  align-items: stretch;
+}
+
 .justify-between {
   justify-content: space-between;
 }
 
-.gap-3 {
-  gap: 0.75rem;
+.justify-evenly {
+  justify-content: space-evenly;
 }
 
 .gap-9 {
@@ -618,6 +621,11 @@ video {
 .bg-Gold {
   --tw-bg-opacity: 1;
   background-color: rgb(213 150 108 / var(--tw-bg-opacity));
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .px-4 {
@@ -782,12 +790,28 @@ video {
     display: none;
   }
 
-  .md\:max-w-56 {
-    max-width: 14rem;
-  }
-
   .md\:max-w-\[21rem\] {
     max-width: 21rem;
+  }
+
+  .md\:max-w-\[\] {
+    max-width: ;
+  }
+
+  .md\:max-w-\[22\] {
+    max-width: 22;
+  }
+
+  .md\:max-w-\[223\] {
+    max-width: 223;
+  }
+
+  .md\:max-w-\[223px\] {
+    max-width: 223px;
+  }
+
+  .md\:flex-row-reverse {
+    flex-direction: row-reverse;
   }
 
   .md\:justify-end {
@@ -798,8 +822,16 @@ video {
     justify-content: space-between;
   }
 
+  .md\:gap-3 {
+    gap: 0.75rem;
+  }
+
   .md\:gap-4 {
     gap: 1rem;
+  }
+
+  .md\:gap-10 {
+    gap: 2.5rem;
   }
 
   .md\:px-0 {
@@ -834,6 +866,10 @@ video {
 
   .md\:pb-3 {
     padding-bottom: 0.75rem;
+  }
+
+  .md\:pb-8 {
+    padding-bottom: 2rem;
   }
 
   .md\:pt-\[7\.5rem\] {
@@ -883,8 +919,24 @@ video {
     width: 28.1rem;
   }
 
-  .lg\:w-\[625px\] {
-    width: 625px;
+  .lg\:max-w-\[\] {
+    max-width: ;
+  }
+
+  .lg\:max-w-\[3\] {
+    max-width: 3;
+  }
+
+  .lg\:max-w-\[350px\] {
+    max-width: 350px;
+  }
+
+  .lg\:gap-8 {
+    gap: 2rem;
+  }
+
+  .lg\:gap-20 {
+    gap: 5rem;
   }
 
   .lg\:px-4 {
@@ -912,8 +964,26 @@ video {
     padding-bottom: 1.145rem;
   }
 
+  .lg\:pb-8 {
+    padding-bottom: 2rem;
+  }
+
   .lg\:text-white {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:gap-12 {
+    gap: 3rem;
+  }
+
+  .xl\:gap-20 {
+    gap: 5rem;
+  }
+
+  .xl\:gap-32 {
+    gap: 8rem;
   }
 }
