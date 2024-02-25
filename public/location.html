@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,7 +17,7 @@
   </head>
   <body>
      <main class="relative">
-      <a href="./index.html" class="absolute top-0 left-0">
+      <a href="./index.html" class="absolute z-10 top-0 left-10">
         <button type="button" class="ml-4 flex justify-center items-center bg-Almost-Black  cursor-pointer h-16 overflow-hidden font-BigShoulders text-xl text-white font-extrabold tracking-[3.5px] hover:bg-Gold">
           <span class="flex justify-center items-center text-white bg-Gold h-full px-4 hover:bg-Almost-Black">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -25,13 +28,12 @@
         </button>
       </a>
 
-      <section class="">
-        <img class="w-fit md:hidden lg:hidden xl:hidden 2xl:hidden" src="./assets/mobile/image-map@2x.png" alt="map">
-        <img class="hidden md:block lg:hidden xl:hidden 2xl:hidden" src="./assets/tablet/image-map@2x.png" alt="map">
-        <img class="hidden md:hidden lg:block w-fit" src="./assets/desktop/image-map@2x.png" alt="map">
+      <!-- *********** MAP SECTION ************ -->
+      <section id="map" class="h-[36rem] lg:h-[39rem] xl:h-[42rem] 2xl:h-[46rem] z-0">
+
       </section>
       
-  <section class="">
+  <section>
       
     <div class="bg-black text-white px-4 md:px-10 lg:px-[10.3rem] md:flex gap-[4.25rem] lg:gap-[220px] pt-12 md:pt-[50px] lg:pt-[104px]">
         <div>
@@ -79,5 +81,6 @@
             </div>
     </div>
     </footer>
+    <script src="./map.js"></script>
   </body>
 </html>
