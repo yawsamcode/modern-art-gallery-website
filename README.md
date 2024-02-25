@@ -1,5 +1,5 @@
 <a name="readme-top"></a>
-<h1 align="center">Receipe Page</h1>
+<h1 align="center">Art gallery website</h1>
 
 This is a solution to the [Art gallery website], Frontend Mentor challenge. 
 
