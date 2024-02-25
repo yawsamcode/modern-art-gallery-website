@@ -26,29 +26,33 @@
       </a>
 
       <section class="">
-        <img src="./assets/mobile/image-map@2x.png" alt="">
+        <img class="w-fit md:hidden lg:hidden xl:hidden 2xl:hidden" src="./assets/mobile/image-map@2x.png" alt="map">
+        <img class="hidden md:block lg:hidden xl:hidden 2xl:hidden" src="./assets/tablet/image-map@2x.png" alt="map">
+        <img class="hidden md:hidden lg:block w-fit" src="./assets/desktop/image-map@2x.png" alt="map">
       </section>
       
-  <section class="md:mb-[5.5rem]">
-      <div class="bg-black text-white px-4 md:px-10 md:grid grid-cols-2 gap-[4.25rem]">
+  <section class="">
+      
+    <div class="bg-black text-white px-4 md:px-10 lg:px-[10.3rem] md:flex gap-[4.25rem] lg:gap-[220px] pt-12 md:pt-[50px] lg:pt-[104px]">
         <div>
-          <h1 class="font-BigShoulders font-black text-5xl leading-[45px] pt-12 pb-12 md:pt-0">OUR LOCATION</h1>
+          <h1 class="font-BigShoulders font-black text-5xl md:text-6xl lg:text-7xl leading-[45px] pb-12 md:leading-[50px] lg:leading-[70px]">OUR LOCATION</h1>
         </div>
         <div>
-          <h2 class="text-Gold font-black text-2xl leading-loose font-BigShoulders md:pt-0">99 KINGS STREET</h2>
+          <h2 class="text-Gold font-black text-2xl lg: leading-loose font-BigShoulders">99 KINGS STREET</h2>
         <p class="font-Outfit text-xl font-normal leading-7 pt-5">Newport
           RI 02840
           United States of America</p>
-        <p class="font-Outfit text-xl font-normal leading-7 pt-5 pb-14">Our newly opened gallery is located near the Edward King House on 99 King Street, the Modern Art Gallery is free to all visitors and open seven days a week from 8am to 9pm.</p>
+        <p class="font-Outfit text-xl font-normal leading-7 pt-5 pb-14 md:pb-20 lg:pb-32">Our newly opened gallery is located near the Edward King House on 99 King Street, the Modern Art Gallery is free to all visitors and open seven days a week from 8am to 9pm.</p>
         </div>
       </div>
+
   </section>
      </main>
 
 
 
      
-    <!-- <footer class="bg-Gold text-Almost-Black mt-auto">
+    <footer class="bg-Gold text-Almost-Black mt-auto">
         <div  class="px-8 py-12 md:px-10 md:py-14 md:grid grid-cols-3 md:gap-4 md:justify-between">
         <div>
             <img src="./assets/logo-dark.svg" alt="logo">
@@ -74,6 +78,6 @@
                 </a>
             </div>
     </div>
-    </footer> -->
+    </footer>
   </body>
 </html>
