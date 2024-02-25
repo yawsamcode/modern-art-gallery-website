@@ -1,5 +1,5 @@
 <a name="readme-top"></a>
-<h1 align="center">Receipe Page</h1>
+<h1 align="center">Art gallery website</h1>
 
 This is a solution to the [Art gallery website], Frontend Mentor challenge. 
 
@@ -16,9 +16,9 @@ This is a solution to the [Art gallery website], Frontend Mentor challenge.
 
 ## 🛠 The challenge <a id="the-challenge"></a>
 The challenge is to build out this art gallery website and get it looking as close to the design as possible.
-View the optimal layout for each page depending on their device's screen size
+View the optimal layout for each page depending on the device's screen size
 See hover states for all interactive elements throughout the site
-Use Leaflet JS to create an interactive location map with custom location pin
+Use Leaflet JS to create an interactive location map with a custom location pin
 
 ## 🚀 Demo <a id="demo"></a>
 
